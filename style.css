@@ -1,0 +1,479 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  border: border-box;
+}
+a {
+  text-decoration: none;
+}
+.navbar {
+  overflow: hidden; /* Prevents overflow */
+  top: 0;
+  height: 60px; /* Fixed height for consistency */
+  width: 100%; /* Full width */
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px; /* Added padding for spacing */
+}
+.nav-search:hover {
+  border: 2px solid rgb(234, 152, 46);
+}
+.logo {
+  background-image: url("amazon.png");
+  background-size: cover;
+  height: 50px;
+  width: 120px;
+}
+.nav-logo {
+  height: 50px;
+  width: 120px;
+}
+.border {
+  border: 2px transparent;
+}
+.border:hover {
+  border: 2px solid white;
+}
+.add-first {
+  font-weight: 600;
+  color: #cccccc;
+  font-size: 0.6rem;
+  margin-left: 30px;
+}
+.add-second {
+  font-size: 0.7rem;
+  margin-left: 5px;
+  font-weight: 800;
+}
+.nav-icon {
+  display: flex;
+}
+.nav-address {
+  align-items: center;
+}
+.nav-search {
+  display: flex;
+  background-color: pink;
+  height: 40px;
+  width: 720px;
+  border-radius: 4px;
+  justify-content: space-evenly;
+  /* color: black; */
+}
+.search-select {
+  background-color: #7c7c7db7;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+}
+.search-input {
+  width: 100%;
+  border: none;
+}
+.search-icon {
+  width: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(234, 152, 46);
+  color: #0f1111;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.sign-first {
+  color: #cccccc;
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+.sign-second {
+  font-size: 0.7rem;
+  font-weight: 800;
+}
+.nav-cart {
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin-right: 20px;
+}
+.nav-cart i {
+  font-size: 40px;
+}
+/* nav content? */
+
+.nav-content {
+  height: 40px;
+  background-color: #222f3d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.opt {
+  height: 36px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 0.6rem;
+  border: 2px transparent;
+}
+.opt:hover {
+  border: 2px solid white;
+}
+.content-all:hover {
+  border: 2px solid white;
+}
+.content-all i {
+  color: white;
+  font-size: 17px;
+}
+.content-all {
+  height: 38px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 0.65rem;
+  font-weight: 700;
+  margin-left: 10px;
+}
+/* hero section  */
+
+.hero-sec {
+  background-image: url("1.png");
+  height: 260px;
+  background-size: cover;
+}
+
+.box {
+  height: 350px;
+  width: 23%;
+  background-color: white;
+  margin-top: 20px;
+}
+.box a {
+  font-size: 0.5rem;
+  font-weight: 700;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #007185;
+}
+.box p {
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin-left: 21px;
+  margin-top: 20px;
+}
+.shop-sec {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(250px, 1fr)
+  ); /* Adjusts the number of columns based on screen size */
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #f9e8fc;
+}
+.box1-image {
+  height: 100%;
+  width: 45%;
+}
+.boxses {
+  display: flex;
+  justify-content: space-around;
+  height: 35%;
+  width: 90%;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.box1-img {
+  background-image: url("box1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+}
+.box2-img {
+  background-image: url("box2.png");
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+}
+.box3-img {
+  background-image: url("box3.png");
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+}
+.box4-img {
+  background-image: url("box4.png");
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+}
+.box5-img {
+  background-image: url("box5.png");
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+}
+
+.box6-img {
+  background-image: url("box6.png");
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+}
+
+.box7-img {
+  background-image: url("box7.png");
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+}
+
+.box8-img {
+  background-image: url("box8.png");
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+}
+
+.box9-img {
+  background-image: url("box9.png");
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+}
+
+.box10-img {
+  background-image: url("box10.png");
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+}
+
+.box11-img {
+  background-image: url("box11.png");
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+}
+
+.box12-img {
+  background-image: url("box12.png");
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+}
+
+.box13-img {
+  background-image: url("box13.png");
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+}
+
+.box14-img {
+  background-image: url("box14.png");
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+}
+
+.box15-img {
+  background-image: url("box15.png");
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+}
+
+.box16-img {
+  background-image: url("box16.png");
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+}
+
+/* Second wrap box */
+.boxsecond {
+  margin-left: 30px;
+  margin-top: 20px;
+  height: 70%;
+  width: 80%;
+}
+
+.box17-img {
+  background-image: url("box17.png");
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+}
+
+.box18-img {
+  background-image: url("box18.png");
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+}
+
+.box19-img {
+  background-image: url("box19.png");
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+}
+.box20-img {
+  background-image: url("box20.png");
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+}
+.foot {
+  height: 200px;
+  width: 100%;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.msg {
+  margin-top: 46px;
+  height: 60%;
+  border: 0.1px solid rgb(107, 105, 105);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.actual-msg {
+  margin-top: 20px;
+  align-items: center;
+  font-size: 0.7rem;
+  height: 100px;
+  width: 20%;
+}
+.actual-msg a {
+  font-size: 0.5rem;
+  font-weight: 700;
+  margin-left: 50px;
+}
+.signin {
+  border: 0.5px solid rgb(255, 134, 4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 100%;
+  font-size: 0.6rem;
+  font-weight: 700;
+  border-radius: 5px;
+  background-color: rgb(226, 156, 64);
+}
+
+/* foooter design */
+
+.foot1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 45px;
+  background-color: #3b5169;
+  font-size: 0.6rem;
+}
+
+.foot2 {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  height: 300px;
+  background-color: #232f3e;
+}
+ul {
+  margin-top: 40px;
+}
+.foot2 a {
+  color: #dddddd;
+  margin-top: 10px;
+  display: block;
+}
+.foot2 p {
+  font-size: 0.6rem;
+  font-weight: 700;
+}
+.foot2 a {
+  font-size: 0.6rem;
+  font-weight: 500;
+}
+.foot3 {
+  color: #dddddd;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #121a22;
+}
+.foot3 p {
+  font-size: 0.6rem;
+  font-weight: 500;
+}
+.foot3 a {
+  font-size: 0.5rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: #dddddd;
+  margin-top: 1px;
+  display: block;
+}
+
+.foot4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 0.5px solid rgb(79, 93, 108);
+  height: 100px;
+  background-color: #232f3e;
+}
+.Alogo {
+  margin-right: 50px;
+  background-image: url(amazon.png);
+  background-size: cover;
+  height: 50px;
+  width: 100px;
+}
+.country {
+  height: 35px;
+  width: 130px;
+  color: white;
+  border: 1px solid lightslategray;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+.country p {
+  font-size: 0.6rem;
+  margin-left: 20px;
+}
+.country i {
+  margin-left: 10px;
+  font-size: 0.7rem;
+}
+.india {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  height: 35px;
+  width: 110px;
+  border: 1px solid lightslategray;
+  border-radius: 3px;
+}
+.india-flag {
+  height: 40%;
+  width: 20%;
+  margin-left: 10px;
+  background-image: url("india.png");
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+}
+.india p {
+  margin-left: 15px;
+  color: white;
+  font-size: 0.6rem;
+}
+.foot5 {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.55rem;
+  font-weight: 500;
+  background-color: #121a22;
+  color: #dddddd;
+}
